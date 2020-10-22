@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="afm.drc.dunamix">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="afm.drc.Splash.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="afm.drc.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name="afm.drc.ui.chat.Conversation"/>
+        <activity android:name="afm.drc.ui.chat.CreateUser"/>
+        <activity android:name="afm.drc.ui.gallery.GalleryFragment"/>
+        <activity android:name="afm.drc.about.ProfileActivity"/>
+
+        <activity android:name="afm.drc.bible.BibleActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name="afm.drc.bible.ReadBook"
+            android:theme="@style/AppTheme.AppCompact"/>
+
+        <activity android:name="afm.drc.online_payments.OnlinePaymentsActivity"/>
+        <activity android:name="afm.drc.online_payments.Youth"/>
+        <activity android:name="afm.drc.online_payments.Tithe"/>
+        <activity android:name="afm.drc.online_payments.Sister"/>
+        <activity android:name="afm.drc.online_payments.Others"/>
+
+        <!--        Bible Quiz-->
+        <activity android:name="afm.drc.bible_quiz.MyActivity"/>
+        <activity android:name="afm.drc.bible_quiz.Scores"
+            android:noHistory="true"/>
+        <activity android:name="afm.drc.bible_quiz.LevelChooser"/>
+        <activity android:name="afm.drc.bible_quiz.QuizQuestionAndAnswers"
+            android:noHistory="true"/>
+        <activity android:name="afm.drc.bible_quiz.Settings"/>
+        <activity android:name="afm.drc.bible_quiz.Help"/>
+        <activity android:name="afm.drc.bible_quiz.About"/>
+
+        <activity android:name="afm.drc.ui.music.MusicActivity"/>
+        <service android:name="afm.drc.ui.music.MusicService" />
+
+    </application>
+
+</manifest>

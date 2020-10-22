@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/viewBg"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/select"
+        android:layout_marginStart="16dp"
+        android:padding="4dp"
+        android:text="Select Payment"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/primaryTextColor"
+        android:text="Youth"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/select"
+        android:id="@+id/youth"
+        android:height="65dp"
+        app:rippleColor="@color/light_grey"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/primaryTextColor"
+        android:text="Sisters Union"
+        android:height="65dp"
+        android:layout_below="@id/youth"
+        android:id="@+id/sister"
+        app:rippleColor="@color/light_grey"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/primaryTextColor"
+        android:text="Tithe"
+        android:height="65dp"
+        android:layout_below="@id/sister"
+        android:id="@+id/tithe"
+        app:rippleColor="@color/light_grey"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/primaryTextColor"
+        android:text="Other Payments"
+        android:height="65dp"
+        android:layout_below="@id/tithe"
+        android:id="@+id/others"
+        app:rippleColor="@color/light_grey"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+

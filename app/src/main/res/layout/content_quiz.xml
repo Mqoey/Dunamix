@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/viewBg"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/primaryTextColor"
+        android:text="Continue"
+        android:id="@+id/homeMenu1"
+        android:height="65dp"
+        app:rippleColor="@color/light_grey"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/primaryTextColor"
+        android:text="Start Quiz"
+        android:height="65dp"
+        android:layout_below="@id/homeMenu1"
+        android:id="@+id/homeMenu2"
+        app:rippleColor="@color/light_grey"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/primaryTextColor"
+        android:text="Options"
+        android:height="65dp"
+        android:layout_below="@id/homeMenu2"
+        android:id="@+id/homeMenu4"
+        app:rippleColor="@color/light_grey"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/primaryTextColor"
+        android:text="Help"
+        android:height="65dp"
+        android:layout_below="@id/homeMenu4"
+        android:id="@+id/help"
+        app:rippleColor="@color/light_grey"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/primaryTextColor"
+        android:text="Info"
+        android:height="65dp"
+        android:layout_below="@id/help"
+        android:id="@+id/about"
+        app:rippleColor="@color/light_grey"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="afm.drc.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="afm.drc.ui.gallery.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/activity_items" />
+
+    <fragment
+        android:id="@+id/nav_music"
+        android:name="afm.drc.ui.music.MusicFragment"
+        android:label="Music"
+        tools:layout="@layout/fragment_music" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="afm.drc.ui.tools.ToolsFragment"
+        android:label="Tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="afm.drc.ui.share.ShareFragment"
+        android:label="Share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="afm.drc.ui.send.SendFragment"
+        android:label="Send"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/bottom_home"
+        android:name="afm.drc.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/bottom_dashboard"
+        android:name="afm.drc.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/bottom_chat"
+        android:name="afm.drc.ui.chat.ChatLogin"
+        android:label="@string/title_chat"
+        tools:layout="@layout/fragment_chat" />
+</navigation>

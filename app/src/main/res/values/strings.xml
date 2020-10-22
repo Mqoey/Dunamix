@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Dunamix</string>
+    <string name="title_home">Home</string>
+    <string name="title_accessories">Accessories</string>
+    <string name="title_chat">Chat</string>
+    <string name="copyright">\u00A9 2021 Dunamix Inc.</string>
+    <string name="about">About</string>
+    <string name="name">Name</string>
+    <string name="message">Message</string>
+    <string name="time">time</string>
+    <string name="dunamix_chat">Dunamix Chat</string>
+    <string name="signup">SignUp</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_user">Create User</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="backdrop_title">CHURCH GALLERY</string>
+    <string name="backdrop_subtitle">Pictures of Events and Activities</string>
+
+    <string name="action_KJV">KJV</string>
+    <string name="next_chapter">Next Chapter</string>
+    <string name="previous_chapter">Previous Chapter</string>
+    <string name="search_chapter">Jump to Chapter</string>
+
+    !--    Bible Quiz-->
+
+    <string name="start_new">Start quiz</string>
+    <string name="continueButton">Continue</string>
+    <string name="view_scores">View scores</string>
+    <string name="rate_it">Rate app</string>
+    <string name="help">Help</string>
+    <string name="choose_level">Choose level</string>
+    <string name="options">Options</string>
+    <string name="about_app_title">About app</string>
+    <string name="about_developer_title">About developer</string>
+    <string name="about_app_text">
+        Bible quiz pro is a bible quiz app for everyone, it is intended to test your knowledge of the bible.
+    </string>
+    <string name="about_developer_text">
+        I\'m Mqondisi Ndlovu.
+        \nA web/mobile app developer. I live in the city of Bulawayo Zimbabwe.
+        \nYou can contact me for your mobile app or web development project:
+        \nPhone:
+        \n+263717468729
+        \nEmail:
+        \nmqoeyyy@gmail.com
+        \nWebsite:
+    </string>
+    <string name="help_h1">How to play!</string>
+    <string name="how_to_play">On the start menu click on start quiz button.
+        \nChoose the level you wish to play.\nFor each levels, questions will be provided on the screen along with
+        four button.\n\nEach button contain one correct answer and three remaining wrong answer.\nClick on the button
+        that you think
+        has the correct answer to the question, and the computer will tell you if it\'s true or false.
+        \n\nYou need to get at least 10 correct answers, to unlock the next level.
+        \nAnd don\'t forget to rate the app :)
+    </string>
+    <string name="first_activity">Amateur</string>
+    <string name="second_activity">Enthusiast</string>
+    <string name="third_activity">Intermediate</string>
+    <string name="fourth_activity">Semi-Pro</string>
+    <string name="fifth_activity">Pro</string>
+    <string name="sixth_activity">Expert</string>
+    <string name="seventh_activity">Genius</string>
+    <string name="eighth_activity">Master</string>
+    <string name="ninth_activity">Grand Master</string>
+    <string name="tenth_activity">Legend</string>
+
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">Doing at the sweet spot between aesthetics and elegance to give life to your brand.My opinion belong to nobody but myself.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
+</resources>

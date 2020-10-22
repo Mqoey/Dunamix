@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="70dp">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:animateLayoutChanges="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/primaryTextColor"
+                        android:text="Bible"
+                        android:height="65dp"
+                        android:layout_marginTop="48dp"
+                        android:id="@+id/bible"
+                        app:rippleColor="@color/light_grey"
+                        android:layout_height="wrap_content"/>
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/primaryTextColor"
+                        android:text="Bible Quiz"
+                        android:height="65dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/bible_quiz"
+                        android:layout_below="@id/bible"
+                        app:rippleColor="@color/light_grey"
+                        android:layout_height="wrap_content"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/primaryTextColor"
+                        android:text="Online Payments"
+                        android:height="65dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/bible_quiz"
+                        android:id="@+id/online_payments"
+                        app:rippleColor="@color/light_grey"
+                        android:layout_height="wrap_content"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/primaryTextColor"
+                        android:text="Facebook Page"
+                        android:height="65dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/facebook"
+                        android:layout_below="@id/online_payments"
+                        app:rippleColor="@color/light_grey"
+                        android:layout_height="wrap_content"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/primaryTextColor"
+                        android:text="Church Gallery"
+                        android:layout_below="@id/facebook"
+                        android:id="@+id/gallery"
+                        android:height="65dp"
+                        android:layout_marginTop="10dp"
+                        app:rippleColor="@color/light_grey"
+                        android:layout_height="wrap_content"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/primaryTextColor"
+                        android:text="YouTube Channel"
+                        android:layout_below="@id/gallery"
+                        android:id="@+id/youtube"
+                        android:height="65dp"
+                        android:layout_marginTop="10dp"
+                        app:rippleColor="@color/light_grey"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</ScrollView>
